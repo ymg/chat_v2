@@ -1,0 +1,61 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+<div>
+    <div class="overlay">
+        <h1>no connection</h1>
+    </div>
+    <div class="navbar container" style="margin-top: 20px;">
+        <h2>Epic fail chat</h2>
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+                </a>
+                <!-- Be sure to leave the brand out there if you want it shown -->
+                <a class="brand" href="">Y/C</a>
+                <!-- Everything you want hidden at 940px or less, place within here -->
+                <div class="nav-collapse">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        @* ReSharper disable UnknownCssClass *@
+        <div class="wrapper hidden-phone hidden-tablet clearfix">
+            @* ReSharper restore UnknownCssClass *@
+            <div class="chatBox span10">
+                <ul class="chatList">
+                </ul>
+            </div>
+            <div class="span2" style="float: right; margin-left: 0; height: 450px; overflow: auto;">
+                <ul class="userList" style="list-style: none; margin: auto 5px auto auto;">
+                </ul>
+            </div>
+        </div>
+        <!-- mobile view -->
+        <div class="tabbable hidden-desktop">
+            <ul class="nav nav-pills">
+                <li class="active"><a href="#chat" data-toggle="tab">Chat</a></li>
+                <li><a href="#users" data-toggle="tab">Online users</a></li>
+            </ul>
+            <div class="tab-content">
+                <div id="chat" class="chatBox tab-pane active" style="height: 350px;">
+                    <ul class="chatList">
+                    </ul>
+                </div>
+                <div id="users" class="tab-pane span2" style="float: left; margin-left: 0; overflow: auto;">
+                    <ul class="userList" style="list-style: none; margin: auto 5px auto auto;">
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- end of mobile view -->
+        @* ReSharper disable UnknownCssClass *@
+        <input class="span10 chatInput" style="float: left; width: 76%;" type="text" />
+        @* ReSharper restore UnknownCssClass *@
+        @* ReSharper disable UnknownCssClass *@
+        <input class="btn submitChat" style="float: left; margin-top: 10px; margin-left: 2px;" type="button" value="submit" />
+        @* ReSharper restore UnknownCssClass *@
+    </div>
+</div>
+
