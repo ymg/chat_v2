@@ -153,9 +153,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\1111191211.css" />
-    <Content Include="Content\bootstrap-responsive.css" />
     <Content Include="Content\bootstrap-responsive.min.css" />
-    <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\fonts\Flat-UI-Icons-16.dev.svg" />
     <Content Include="Content\fonts\Flat-UI-Icons-16.svg" />

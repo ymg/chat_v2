@@ -12,6 +12,12 @@ namespace chat.App_Start
                         "~/Content/1111191211.css"));
 
             bundles.Add(
+                new ScriptBundle("~/bundles/js")
+                .Include("~/Scripts/jquery-{version}.min.js")
+                .Include("~/Scripts/bootstrap.min.js")
+                .Include("~/Scripts/jquery.signalR-{version}.min.js"));
+
+            bundles.Add(
                 new ScriptBundle("~/bundles/control")
                 .Include("~/Scripts/bootbox.min.js")
                 .Include("~/Scripts/shortcut.js")
