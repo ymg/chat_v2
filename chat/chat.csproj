@@ -234,6 +234,7 @@
     <Content Include="img\1351032181_bullet_deny.png" />
     <Content Include="img\glyphicons-halflings-white.png" />
     <Content Include="img\glyphicons-halflings.png" />
+    <Content Include="loaderio-b7ef56115b6e5313119cbb72e5e44d4f.txt" />
     <Content Include="Scripts\bootbox.min.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
